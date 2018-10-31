@@ -25,4 +25,6 @@ class Truck(Vehicles):
         print(f'此卡车载重{cls.load}吨')
 
 c1=Car('奔驰','黄色')
+Car.show_car()
 t1=Car('解放','军绿色')
+Truck.show_truck()
